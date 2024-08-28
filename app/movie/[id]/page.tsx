@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import HighlightBar from "@/components/HighlightBar";
 import MovieHero from "@/components/MovieHero";
 import React from "react";
 
@@ -102,6 +103,7 @@ const page = () => {
     <>
       <Breadcrumb />
       <MovieHero data={movie} type="sa" />
+      <HighlightBar />
     </>
   );
 };
