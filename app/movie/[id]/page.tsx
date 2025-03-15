@@ -1,4 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import CreditGallary from "@/components/CreditGallary";
 import HighlightBar from "@/components/HighlightBar";
 import MovieHero from "@/components/MovieHero";
 import React from "react";
@@ -104,6 +105,11 @@ const page = () => {
       <Breadcrumb />
       <MovieHero data={movie} type="sa" />
       <HighlightBar />
+      <section className="div py-6">
+        <div className="container mx-auto">
+          <CreditGallary />
+        </div>
+      </section>
     </>
   );
 };
